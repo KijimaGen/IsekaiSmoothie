@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02c6cc464970c774e935d1a83b34c37f, type: 3}
+  m_Name: CustomerMasterData
+  m_EditorClassIdentifier: 
+  sheets:
+  - name: CustomerMasterData
+    list:
+    - ID: 0
+      characterName: "\u512A\u3057\u305D\u3046\u306A\u5BA2"
+      time: 30
+      smoothie: "\u30B9\u30E0\u30FC\u30B8\u30FC\u3092\u304A\u9858\u3044\u3057\u307E\u3059"
+      wrongTaste: "\u5473\u304C\u9055\u3044\u307E\u3059\u3088"
+      wrongEffect: "\u52B9\u679C\u304C\u9055\u3044\u307E\u3059\u3088"
+      fast: "\u65E9\u3044\u306D\u3001\u3042\u308A\u304C\u3068"
+      soso: "\u3042\u308A\u304C\u3068\u3046"
+      late: "\u9045\u304B\u3063\u305F\u3051\u3069\u3042\u308A\u304C\u3068\u3046"
+      speed: 2
+    - ID: 1
+      characterName: "\u8352\u3005\u3057\u3044\u5BA2"
+      time: 30
+      smoothie: "\u30B9\u30E0\u30FC\u30B8\u30FC\u3092\u304A\u9858\u3044\u3059\u308B\u305C\u3063"
+      wrongTaste: "\u5473\u304C\u9055\u3046\u305E\uFF01"
+      wrongEffect: "\u52B9\u679C\u304C\u9055\u3046\u305E\uFF01"
+      fast: "\u65E9\u3044\u306A\uFF01\u52A9\u304B\u308B\uFF01"
+      soso: "\u3042\u308A\u304C\u305F\u3044\uFF01"
+      late: "\u305D\u3046\u3044\u3046\u65E5\u3082\u3042\u308B\u3088\u306A\uFF01\u3042\u308A\u304C\u3068\u3046\uFF01"
+      speed: 3
+    - ID: 2
+      characterName: "\u305B\u3063\u304B\u3061\u306A\u5BA2"
+      time: 25
+      smoothie: "\u30B9\u30E0\u30FC\u30B8\u30FC\u3001\u65E9\u304F\u304A\u9858\u3044\uFF01"
+      wrongTaste: "\u5473\u304C\u9055\u3046\u3063\uFF01"
+      wrongEffect: "\u52B9\u679C\u304C\u9055\u3046\u3063\uFF01"
+      fast: "\u52A9\u304B\u308B\uFF01\u3042\u308A\u304C\u3068\uFF01"
+      soso: "\u3042\u308A\u304C\u3068\uFF01"
+      late: "\u304A\u3063\u305D\u3044\uFF01\u3067\u3082\u3082\u3089\u3046\uFF01"
+      speed: 3
+    - ID: 3
+      characterName: "\u306E\u3093\u3073\u308A\u3068\u3057\u305F\u5BA2"
+      time: 35
+      smoothie: "\u30B9\u30E0\u30FC\u30B8\u30FC\u3043\u304A\u9858\u3044\u3057\u307E\u3059\u3045"
+      wrongTaste: "\u5473\u304C\u9055\u3044\u307E\u3059\u3088\u3049"
+      wrongEffect: "\u52B9\u679C\u304C\u9055\u3044\u307E\u3059\u3088\u3049"
+      fast: "\u65E9\u3044\u306D\u3047\u3001\u3042\u308A\u304C\u3068\u3049"
+      soso: "\u3042\u308A\u304C\u3068\u3049"
+      late: "\u3042\u30FC\u308A\u30FC\u304C\u30FC\u3068\u30FC"
+      speed: 1
+    - ID: 4
+      characterName: "\u7269\u9759\u304B\u306A\u5BA2"
+      time: 30
+      smoothie: "\u30B9\u30E0\u30FC\u30B8\u30FC\u3092\u304A\u9858\u3044\u3057\u307E\u3059"
+      wrongTaste: "\u5473\u304C\u2026\u9055\u3046\u2026"
+      wrongEffect: "\u52B9\u80FD\u304C\u2026\u9055\u3046\u2026"
+      fast: "\u65E9\u3044\u3093\u3060\u306A\u3001\u3042\u308A\u304C\u3068\u3046"
+      soso: "\u3042\u308A\u304C\u3068\u3046"
+      late: "\u304B\u306A\u308A\u304B\u304B\u3063\u305F\u306A\u3042\u308A\u304C\u3068\u3046"
+      speed: 2
