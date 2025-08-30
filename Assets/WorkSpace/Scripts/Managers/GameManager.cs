@@ -15,6 +15,7 @@ public class GameManager : SystemObject{
     public static GameManager instance;
     public override void Initialize() {
         instance = this;
+        SoundManager.instance.PlayBGM(1);
     }
 
 

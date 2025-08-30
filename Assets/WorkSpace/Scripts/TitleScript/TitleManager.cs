@@ -83,5 +83,6 @@ public class TitleManager : SystemObject {
         instance = this;
         state = TitleState.Start;
         await FadeManager.instance.FadeIn();
+        SoundManager.instance.PlayBGM(0);
     }
 }

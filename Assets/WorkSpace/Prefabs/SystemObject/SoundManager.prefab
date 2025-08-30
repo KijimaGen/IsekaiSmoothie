@@ -241,8 +241,8 @@ MonoBehaviour:
   BGMSource: {fileID: 1915444934449268251}
   SoundSource: {fileID: 9084009957773567248}
   BGMClips:
-  - {fileID: 8300000, guid: 374e8cd3fced3544bbf74a7db10f1e6f, type: 3}
-  - {fileID: 8300000, guid: 374e8cd3fced3544bbf74a7db10f1e6f, type: 3}
-  SoundClip:
+  - {fileID: 8300000, guid: 9d4b9625de5f1be47ba40f81ca897ec8, type: 3}
+  - {fileID: 8300000, guid: 2995c0f3901ccd04d9bd26a4c5cd8e1b, type: 3}
+  SoundClips:
   - {fileID: 8300000, guid: 374e8cd3fced3544bbf74a7db10f1e6f, type: 3}
   - {fileID: 8300000, guid: 3d1922b49d41f1045961941975b8e6af, type: 3}

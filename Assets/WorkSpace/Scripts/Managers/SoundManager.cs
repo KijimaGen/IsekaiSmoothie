@@ -17,16 +17,31 @@ public class SoundManager : SystemObject{
     [SerializeField]
     private List<AudioClip> BGMClips = new List<AudioClip>();
     [SerializeField]
-    private List<AudioClip> SoundClip = new List<AudioClip>();
+    private List<AudioClip> SoundClips = new List<AudioClip>();
     
 
+    /// <summary>
+    /// SE‚ð—¬‚·
+    /// </summary>
+    /// <param name="SoundIndex"></param>
     public void PlaySound(int SoundIndex) {
-        if (BGMSource == null || SoundIndex > SoundClip.Count || SoundIndex < 0) return; 
+        if (BGMSource == null || SoundIndex > SoundClips.Count || SoundIndex < 0) return; 
 
-        SoundSource.PlayOneShot(SoundClip[SoundIndex]);
+        SoundSource.PlayOneShot(SoundClips[SoundIndex]);
     }
 
     public override void Initialize() {
         instance = this;
     }
+    /// <summary>
+    /// ‰¹Šy‚ð—¬‚·
+    /// </summary>
+    /// <param name="SoundIndex"></param>
+    public void PlayBGM(int SoundIndex)
+    {
+        if (BGMSource == null || SoundIndex > BGMClips.Count || SoundIndex < 0) return;
+
+        BGMSource.PlayOneShot(BGMClips[SoundIndex]);
+    }
+
 }
