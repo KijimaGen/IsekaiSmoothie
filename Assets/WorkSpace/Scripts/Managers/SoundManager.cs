@@ -41,7 +41,8 @@ public class SoundManager : SystemObject{
     {
         if (BGMSource == null || SoundIndex > BGMClips.Count || SoundIndex < 0) return;
 
-        BGMSource.PlayOneShot(BGMClips[SoundIndex]);
+        BGMSource.clip = BGMClips[SoundIndex];
+        BGMSource.Play();
     }
 
 }
